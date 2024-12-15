@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>
+            Medical History
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age:
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Existing Medical Conditions:
+                    </td>
+                    <td>
+                        <input type="radio" name="emc" id="r01" value="HeartDisease">Heart Disease<br>
+                        <input type="radio" name="emc" id="r02" value="Hypertension">Hypertension<br>
+                        <input type="radio" name="emc" id="r03" value="Diabetes">Diabetes<br>
+                        <input type="radio" name="emc" id="r04" value="Asthma">Asthma<br>
+                        <input type="radio" name="emc" id="r05" value="Arthritis">Arthritis<br>
+                        <input type="radio" name="emc" id="r06" value="None">None<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Past Medical History:
+                    </td>
+                    <td>
+                        <input type="radio" name="pmc" id="r11" value="HeartAttack">Heart Attack<br>
+                        <input type="radio" name="pmc" id="r12" value="AnyLegSurgery">Any leg surgery<br>
+                        <input type="radio" name="pmc" id="r13" value="Allergies">Allergies<br>
+                        <input type="radio" name="pmc" id="r14" value="AnyTransplantation">Any transplantation<br>
+                        <input type="radio" name="pmc" id="r15" value="Asthma">Asthma<br>
+                        <input type="radio" name="pmc" id="r16" value="None">None<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Other:
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Do you do exercise regularly?
+                    </td>
+                    <td>
+                        <input type="radio" name="yesno">YES<br>
+                        <input type="radio" name="yesno">NO<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <a href="exercise.html">
+                            <input type="button" value="Submit" class="button" onclick="showExercise()">
+                        </a>  
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+        <script src="./script.js">
+        </script>
+    </body>
+</html>
+

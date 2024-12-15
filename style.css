@@ -1,0 +1,294 @@
+table
+{
+    padding: 10px;
+    line-height:20px;
+    margin:10px;
+    border-spacing:20px;
+    font-size:20px;
+    font-family: 'Times New Roman';
+}
+#p1
+{
+    font-size:30px;
+    /* font-family:Brush Script MT ; */
+}
+#p3
+{
+    font-size:20px;
+}
+#p2
+{
+    background:rgb(106, 106, 106);
+    opacity: 0.9;
+    text-align: center;
+    border-radius:500px;
+    margin:10px;
+    font-size:30px;
+    margin:10px;
+    color:white;
+}
+h1
+{
+    font-size:50px;
+     /* font-family: Brush Script MT;  */
+}
+.button
+{
+    font-size:20px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 6px solid rgb(106, 106, 106);
+    background:rgb(0, 2, 4);
+    color:white;
+}
+#p3
+{
+    font-size: 20px;
+    font-weight: 300;
+}
+#p4
+{
+    font-size:30px;
+}
+h2
+{
+    font-size:50px;
+    /* font-family: Brush Script MT; */
+}
+table
+{
+    background-color:burlywood
+}
+#result
+{
+    font-size: 50px;
+    background-color: #333;
+}
+
+
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+/* Styles for header */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('images/header2.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh; /* Adjust to desired height */
+    color: white; /* Text color */
+    opacity: 0.8;
+}
+
+.header-container img {
+    width: 200px;
+    height: auto; 
+    margin-right: 10px; 
+    /* Adding blur effect to the header image */
+}
+
+/* Styles for navigation bar */
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Styles for footer */
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    z-index: 1000; /* Ensure it's above other elements */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    footer{
+        background-color: #111;
+    }
+    .footerContainer{
+        width: 100%;
+        padding: 70px 30px 20px ;
+    }
+    .socialIcons{
+        display: flex;
+        justify-content: center;
+    }
+    .socialIcons a{
+        text-decoration: none;
+        padding:  10px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .socialIcons a i{
+        font-size: 2em;
+        color: black;
+        opacity: 0,9;
+    }
+    /* Hover affect on social media icon */
+    .socialIcons a:hover{
+        background-color: #111;
+        transition: 0.5s;
+    }
+    .socialIcons a:hover i{
+        color: white;
+        transition: 0.5s;
+    }
+    .footerNav{
+        margin: 30px 0;
+    }
+    .footerNav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .footerNav ul li a{
+        color:white;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: 0.5s;
+    
+    }
+    .footerNav ul li a:hover{
+        opacity: 1;
+    }
+    .footerBottom{
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerBottom p{
+        color: white;
+    }
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px;
+    }
+    @media (max-width: 700px){
+        .footerNav ul{
+            flex-direction: column;
+        } 
+        .footerNav ul li{
+            width:100%;
+            text-align: center;
+            margin: 10px;
+        }
+        .socialIcons a{
+            padding: 8px;
+            margin: 4px;
+        }
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#a{
+    font-size: 60px;
+    font-weight: 700;
+
+}

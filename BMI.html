@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h2>BMI Calculator</h2>
+    <!-- <p id="p3">
+        Weight (kg): <input type="number" id="weight"><br><br>
+        Height (cm): <input type="number" id="height"><br><br>
+        <input type="button" value="submit"onclick="calculateBMI()" class="button">
+    </p> -->
+    <table>
+        <tr>
+            <td>
+                Weight (kg):
+            </td>
+            <td>
+                <input type="number" id="weight">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Height (cm):
+            </td>
+            <td>
+                <input type="number" id="height">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="submit"onclick="calculateBMI()" class="button">
+            </td>
+        </tr>
+    </table><br><br><br>
+    <div id="result"></div><br><br>
+    <p id="p4">
+    Now to make the best workout plan for you help me with your medical history....<br><br>
+        <a href="medical.html">
+            <input type="button" value="Click Me" class="button">
+        </a>
+    </p>
+    </center>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
